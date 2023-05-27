@@ -70,3 +70,35 @@ body{
   padding: 0 10px;
   background: rgb(44, 156, 67);
 }
+
+@media only screen and (max-width: 480px) {
+
+.container {
+  max-width: 470px;
+  margin:  auto  20px;
+  padding: 20px 0 0 0;
+
+}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+body{
+    background-color: rgba(142, 132, 182, 0.589);
+}
+.container {
+  max-width: 755px;
+  margin: auto 20px;
+
+}
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1279px) {
+
+.container {
+  max-width: 1110px;
+  margin: 20px 79px;
+
+}
+
+}
